@@ -34,5 +34,6 @@ export default {
 h1 {
   background: red;
   width: 375px;
+  color: sideBarWidth;
 }
 </style>

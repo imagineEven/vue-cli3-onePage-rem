@@ -19,7 +19,7 @@ const cdn = {
   // 开发环境
   dev: {
     css: [],
-    js: ['https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.4.4/polyfill.js']
+    js: ['']
   },
   // 生产环境
   build: {

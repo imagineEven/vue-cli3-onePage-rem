@@ -8,7 +8,10 @@
 </template>
 <script>
   export default {
-    name: 'App'
+    name: 'App',
+    mounted() {
+      console.log('this.$route',this.$route)
+    },
   }
 
 </script>

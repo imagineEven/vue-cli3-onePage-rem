@@ -3,6 +3,7 @@
   <div>
     <h1>home</h1>
     <van-button type="primary">主要按钮</van-button>
+    <div class="font_size40 opacity50 nihao">nihao</div>
   </div>
 </template>
 
@@ -31,9 +32,12 @@ export default {
 
 </script>
 <style lang='scss' scoped>
+@import '../../assets/css/variables';
 h1 {
   background: red;
   width: 375px;
-  color: sideBarWidth;
+}
+.nihao {
+  color: $red;
 }
 </style>

@@ -2,9 +2,8 @@
   <div class="fixed_lb footer-wrapper w_100 flex_box">
     <div v-for="(foot,index) in footList" 
     :key="index" 
-    @click="clickBar(foot)"
-    class="w_33 foot-item flex-c-c">
-      <router-link :to="foot.path">{{foot.name}}</router-link>
+    class="w_33 foot-item">
+      <router-link class="w_100 h_100 flex-c-c" :to="foot.path">{{foot.name}}</router-link>
     </div>
   </div>
 </template>
@@ -24,9 +23,6 @@ export default {
   mounted () {
   },
   methods: {
-    clickBar(foot) {
-      
-    }
   }
 }
 </script>

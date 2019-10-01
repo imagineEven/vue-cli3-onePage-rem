@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="wh_100 relative">
     <keep-alive>
       <router-view v-if="$route.meta.keepAlive"></router-view>
     </keep-alive>

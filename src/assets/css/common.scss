@@ -89,7 +89,7 @@ button{
 
 
 /*Flex布局*/
-.flexbox{display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: -moz-box; display: flex;}
+.flex_box{display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: -moz-box; display: flex;}
 .items_center{align-items: center;}
 .flex_grow{-webkit-box-flex: 1; -webkit-flex-grow: 1; -moz-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
 .flex_grow_2{-webkit-box-flex: 2; -webkit-flex-grow: 2; -moz-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2;}
@@ -100,6 +100,7 @@ button{
 .space_between{justify-content: space-between;}
 .justify_center{justify-content: center;}
 .align_center{align-content: center;}
+.flex-c-c{display: flex; justify-content: center; align-items: center}
 
 /*定位*/
 .relative{position: relative;}
@@ -201,25 +202,13 @@ button.background_1a:active{
 .w_18{width: 18%;}
 .w_10{width: 10%;}
 
-.w_max_80{
-  max-width: 80%;
-}
-
 .h_100{height: 100%;}
 .vh_100{height: 100vh;}
-.vmh_100{min-height: 100vh;}
 
 .vw_100{width: 100vw;}
-.wh_40{
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-}
-.wh_60{
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-}
+.vh_100{height: 100vh;}
+.wh_100{width: 100vw; height:100vh;}
+
 
 .mx_auto{margin-left: auto;margin-right: auto;}
 .mx_20{margin-left: 20px;margin-right: 20px;}
@@ -342,6 +331,7 @@ button.background_1a:active{
 .font_normal{font-weight: normal;}
 .font_lighter{font-weight: lighter;}
 
+// 11这个需要看一下；
 .vertical_middle{vertical-align: middle;}
 .vertical_tBottom{vertical-align: text-bottom;}
 .line_nowrap{white-space: nowrap;}

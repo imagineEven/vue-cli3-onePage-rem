@@ -26,7 +26,8 @@ export default {
   computed: {},
 
   mounted () {
-    console.log(process.env)
+    // console.log(process.env)
+    console.log('home的生命周期')
   },
 
   methods: {}

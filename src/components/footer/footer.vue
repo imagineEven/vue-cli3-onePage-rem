@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed_lb footer-wrapper w_100 flex_box">
+  <div class="fixed_lb footer-wrapper w_100 flex_box footer">
     <div v-for="(foot,index) in footList" 
     :key="index" 
     class="flex_1 foot-item">
@@ -28,6 +28,10 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.footer {
+  z-index: 1000;
+  background: #ffffff;
+}
 .foot-item {
   height: 100px;
 }

@@ -4,7 +4,6 @@
     <h1>home</h1>
     <van-button type="primary">主要按钮</van-button>
     <div class="font_size40 opacity50 nihao">nihao</div>
-    <efooter></efooter>
   </div>
 </template>
 

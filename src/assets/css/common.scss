@@ -91,6 +91,7 @@ button{
 /*Flex布局*/
 .flex_box{display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: -moz-box; display: flex;}
 .items_center{align-items: center;}
+.flex_1{display: flex; flex: 1}
 .flex_grow{-webkit-box-flex: 1; -webkit-flex-grow: 1; -moz-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
 .flex_grow_2{-webkit-box-flex: 2; -webkit-flex-grow: 2; -moz-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2;}
 .flex_0{flex-shrink: 0;}

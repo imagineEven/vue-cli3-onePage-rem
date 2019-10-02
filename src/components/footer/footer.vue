@@ -2,7 +2,7 @@
   <div class="fixed_lb footer-wrapper w_100 flex_box">
     <div v-for="(foot,index) in footList" 
     :key="index" 
-    class="w_33 foot-item">
+    class="flex_1 foot-item">
       <router-link class="w_100 h_100 flex-c-c" :to="foot.path">{{foot.name}}</router-link>
     </div>
   </div>
@@ -14,7 +14,7 @@ export default {
     return {
       footList: [
         {name: '首页', path: '/'},
-        {name: '权益', path: '/power'},
+        {name: '滚动', path: '/power'},
         {name: '我的', path: '/user'},
       ]
     }

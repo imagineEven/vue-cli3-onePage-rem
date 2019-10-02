@@ -7,21 +7,24 @@ export const constantRoutes = [
     path: '/',
     component: () => import('@/views/home/index'),
     meta: {
-      keepAlive: false
+      keepAlive: false,
+      footer: true,
     }
   },
   {
     path: '/user',
     component: () => import('@/views/user/user'),
     meta: {
-      keepAlive: false
+      keepAlive: false,
+      footer: true,
     }
   },
   {
     path: '/power',
     component: () => import('@/views/power/power'),
     meta: {
-      keepAlive: false
+      keepAlive: false,
+      footer: true,
     }
   }
 ]

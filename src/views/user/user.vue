@@ -17,12 +17,14 @@ export default {
   mounted () {
     console.log('user的生命周期')
   },
+  inject: ['reload'],
   methods: {
     clickChangeRouter() {
       this.$route.meta.keepAlive = false;
       console.log(this.$route.meta.keepAlive);
     },
     clickRefresh() {
+      this.reload();
       console.log('执行了刷新的方法')
     }
   }

@@ -15,7 +15,7 @@ export const constantRoutes = [
     path: '/user',
     component: () => import('@/views/user/user'),
     meta: {
-      keepAlive: true,
+      keepAlive: false,
       footer: true,
     }
   },

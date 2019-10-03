@@ -16,6 +16,9 @@ import efooter from '@/components/footer/footer'
         routerKey: Date.parse(new Date())
       }
     },
+    created() {
+      // window.addEventListener('scroll',this.onScroll);
+    },
     components: {efooter},
     provide() {
       return {

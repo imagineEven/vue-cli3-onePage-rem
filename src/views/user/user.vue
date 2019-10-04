@@ -7,6 +7,7 @@
     <div @click="clickRefresh">我想要刷新这个页面</div>
     <br/>
     <div @click="clickStore">点击了状态管理</div>
+    <eheader></eheader>
   </div>
 </template>
 
@@ -15,12 +16,14 @@
 		mapState,
 		mapActions
 	} from "vuex";
+  import eheader from '@/components/eheader/eheader'
 export default {
   data () {
     return {}
   },
   computed: {
   },
+  components: {eheader},
   mounted () {
     console.log('user的生命周期')
   },

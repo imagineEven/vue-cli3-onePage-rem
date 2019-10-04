@@ -1,12 +1,14 @@
 
 function getInitState() {
   return {
-
+    isScrolling: false,
+    timeOut: null,
   }
 }
 let actions = {
-  nihao() {
-    console.log('nihao');
+  onScroll({commit, state}) {
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    console.log('监听滚动事件', scrollTop);
   }
 }
 let mutations = {}

@@ -3,27 +3,30 @@
     <div class="scroll-content">
       <div class="font_size40" v-for="(item, index) in list" :key="index">{{item}}</div>
     </div>
+    <eheader></eheader>
   </div>
 </template>
 
 <script>
+import eheader from '@/components/eheader/eheader'
 export default {
   data () {
     return {list:[1,1,1,1,1,1,1,1,1,1,1,11,,11,1,1,1,1,1,,1,1,11,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,11,1,1,1,1,2,2,2,2,2,2,2,2]}
   },
   computed: {},
+  components: {eheader},
   created() {
-    window.addEventListener('scroll',this.onScroll);
+    // window.addEventListener('scroll',this.onScroll);
   },
   mounted () {
     console.log('scroll的生命周期')
   },
   methods: {
-    onScroll() {
-      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      console.log('监听滚动事件', scrollTop);
-      // alert(111);
-    }
+    // onScroll() {
+    //   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    //   console.log('监听滚动事件', scrollTop);
+    //   // alert(111);
+    // }
   }
 }
 </script>

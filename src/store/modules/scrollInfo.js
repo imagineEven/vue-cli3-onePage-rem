@@ -4,31 +4,38 @@
 const mutationTypes = {
   // 设置headerOpacity的值 setHeaderOpacity
   SETHEADEROPACITY: 'SETHEADEROPACITY',
+  // 设置heaserHeight值， set设置headerHeight值，
+  SETHEADERHEIGHT: 'SETHEADERHEIGHT',
 };
 
 function getInitState() {
   return {
-    isScrolling: false,
-    timeOut: null,
     headerOpacity: 0,
+    headerHeight: 0,
   }
 }
 let actions = {
   onScroll({commit, state}) {
     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    if (scrollTop > 100) {
-      let value =  (scrollTop-100)/10;
+      let value =  (scrollTop)/100;
+      let height = (scrollTop*5)/10 + 'px'
+      if (value > 1) {
+        if (state.headerOpacity == 1) return ;
+        commit(mutationTypes.SETHEADEROPACITY, 1);
+        commit(mutationTypes.SETHEADERHEIGHT, '50px');
+        return;
+      }
+      console.log('111', scrollTop);
       commit(mutationTypes.SETHEADEROPACITY, value);
-    } else if (scrollTop < 100 && scrollTop > 90) {
-      let value = (10-(100 - scrollTop))/10;
-      commit(mutationTypes.SETHEADEROPACITY, value);
-    }
+      commit(mutationTypes.SETHEADERHEIGHT, height);
   }
 }
 let mutations = {
   [mutationTypes.SETHEADEROPACITY](state, value) {
-    console.log('value',value);
     state.headerOpacity = value;
+  },
+  [mutationTypes.SETHEADERHEIGHT](state, value) {
+    state.headerHeight = value;
   }
 }
 let getters = {}

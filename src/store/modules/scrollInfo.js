@@ -17,8 +17,8 @@ function getInitState() {
 let actions = {
   onScroll({commit, state}) {
     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      let value =  (scrollTop)/100;
-      let height = (scrollTop*5)/10 + 'px'
+      let value =  (scrollTop)/200;
+      let height = (scrollTop*5)/20 + 'px'
       if (value > 1) {
         if (state.headerOpacity == 1) return ;
         commit(mutationTypes.SETHEADEROPACITY, 1);

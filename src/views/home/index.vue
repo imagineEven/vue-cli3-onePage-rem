@@ -6,7 +6,7 @@
     <div class="wh_100 text px_35 flex_box flex_wrap space_between">
       <div 
       v-for="(item, index) in list" :key="index"
-      :style="{'animation': 'show01 ' + ((index+1)*0.2+1) + 's 1'}"
+      :style="{'animation': 'show ' + ((index+1)*0.2+1) + 's 1'}"
       class="image"></div>
     </div>
   </div>

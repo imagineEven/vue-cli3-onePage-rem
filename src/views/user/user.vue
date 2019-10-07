@@ -7,6 +7,8 @@
     <div @click="clickRefresh">我想要刷新这个页面</div>
     <br/>
     <div class="mb_20" @click="clickStore">点击了状态管理</div>
+    <br/>
+    <div class="px_20 py_20 bc_orange inline_block" @click="tauchstart('shake')" :class="`animation-${animation}`">抖动</div>
     <div class="vw_100 vh_100 bc_4d pt_20">
       <div class="avart-circle px_10 py_10 bc_fff inline_block">
         <div class="user-avart animation_avart"></div>
@@ -23,7 +25,9 @@
   import eheader from '@/components/eheader/eheader'
 export default {
   data () {
-    return {}
+    return {
+      animation: ''
+    }
   },
   computed: {
   },
@@ -44,7 +48,13 @@ export default {
     },
     clickStore() {
       this.nihao();
-    }
+    },
+    tauchstart(value) {
+      this.animation = value;
+      setTimeout(() => {
+        this.animation = ''
+      },1000)
+    },
   }
 }
 </script>

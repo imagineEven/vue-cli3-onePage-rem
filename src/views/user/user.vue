@@ -6,8 +6,12 @@
     <br/>
     <div @click="clickRefresh">我想要刷新这个页面</div>
     <br/>
-    <div @click="clickStore">点击了状态管理</div>
-    <eheader></eheader>
+    <div class="mb_20" @click="clickStore">点击了状态管理</div>
+    <div class="vw_100 vh_100 bc_4d pt_20">
+      <div class="avart-circle px_10 py_10 bc_fff inline_block">
+        <div class="user-avart animation_avart"></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -46,4 +50,15 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.user-avart {
+  height: 100px;
+  width: 100px;
+  background-image: url('../../assets/images/BasicsBg.png');
+  border-radius:50px;
+  background-size: cover;
+  background-position: center;
+}
+.avart-circle {
+  border-radius:50%;
+}
 </style>

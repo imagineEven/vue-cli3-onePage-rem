@@ -4,10 +4,10 @@
     <h1>home</h1>
     <van-button type="primary">主要按钮</van-button>
     <div class="wh_100 text px_35 flex_box flex_wrap space_between">
-      <img src="@/assets/images/BasicsBg.png" 
+      <div 
       v-for="(item, index) in list" :key="index"
-      :style="{'animation': 'show ' + ((index+1)*0.2+1) + 's 1'}"
-      class="image"></img>
+      :style="{'animation': 'show01 ' + ((index+1)*0.2+1) + 's 1'}"
+      class="image"></div>
     </div>
   </div>
 </template>
@@ -59,19 +59,11 @@ h1 {
   .image {
     height:300px;
     width: 300px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/BasicsBg.png');
+    // position: relative;
   }
 }
-	@keyframes show {
-		0% {
-			transform: translateY(-50px);
-		}
-
-		60% {
-			transform: translateY(40upx);
-		}
-
-		100% {
-			transform: translateY(0px);
-		}
-	}
 </style>

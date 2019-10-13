@@ -1,5 +1,6 @@
 <template>
   <div class="scroll-wrapper">
+    <div @click="gogo">抖动</div>
     <div class="scroll-content">
       <div class="font_size40" v-for="(item, index) in list" :key="index">{{item}}</div>
     </div>
@@ -16,12 +17,20 @@ export default {
   computed: {},
   components: {eheader},
   created() {
+    // console.log('-------------power.vue-------------')
+    // console.log('window.history',window.history)
+    // console.log('document.referrer',window.document.referrer)
+    // console.log('-------------power.vue-------------')
     // window.addEventListener('scroll',this.onScroll);
   },
   mounted () {
     console.log('scroll的生命周期')
   },
   methods: {
+    gogo() {
+      // window.history.go(-3);
+      this.$store.commit('app-info/SETROUTERQUERY');
+    }
     // onScroll() {
     //   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
     //   console.log('监听滚动事件', scrollTop);

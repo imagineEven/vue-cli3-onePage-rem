@@ -7,7 +7,8 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   modules: {
-    'scroll-info': scrollInfo
+    'scroll-info': scrollInfo,
+    'app-info': app,
   },
   getters
 })

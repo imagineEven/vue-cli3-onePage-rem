@@ -30,10 +30,17 @@ export default {
     }
   },
   computed: {
+    ...mapState('app-info', ['footList'])
   },
   components: {eheader},
   mounted () {
     console.log('user的生命周期')
+    this.$store.commit('app-info/SETROUTERQUERY');
+    console.log('footList', this.footList);
+    // console.log('-------------power.vue-------------')
+    // console.log('window.history',window.history)
+    // console.log('document.referrer',window.document.referrer)
+    // console.log('-------------power.vue-------------')
   },
   inject: ['reload'],
   methods: {
@@ -50,12 +57,15 @@ export default {
       this.nihao();
     },
     tauchstart(value) {
-      this.animation = value;
-      setTimeout(() => {
-        this.animation = ''
-      },1000)
+      console.log('window.history', window.history.length);
+      // window.history.back();
+      window.history.go(-1);
+      // this.animation = value;
+      // setTimeout(() => {
+      //   this.animation = ''
+      // },1000)
     },
-  }
+  },
 }
 </script>
 

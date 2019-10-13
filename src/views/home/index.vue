@@ -1,8 +1,8 @@
 <!-- home -->
 <template>
   <div class="wh_100">
-    <h1>home</h1>
-    <van-button type="primary">主要按钮</van-button>
+    <h1 @click="gogo">home</h1>
+    <van-button type="primary" @click="clickto">刷新页面</van-button>
     <div class="wh_100 text px_35 flex_box flex_wrap space_between">
       <div 
       v-for="(item, index) in list" :key="index"
@@ -33,11 +33,25 @@ export default {
   computed: {},
 
   mounted () {
+    console.log('home 的生命周期')
     // console.log(process.env)
-    console.log('home的生命周期')
+    // console.log('-------------home.vue-------------')
+    // console.log('window.history',window.history)
+    // console.log('document.referrer',window.document.referrer)
+    // console.log('-------------home.vue-------------')
   },
 
-  methods: {}
+  methods: {
+    clickto() {
+      // 这种刷新支持回退，
+      // window.location.href = 'http://localhost:9018/app/user'
+      // 这种也刷新支持回退，
+      // window.location.reload();
+    },
+    gogo() {
+      window.history.go(-1);
+    }
+  }
 }
 
 </script>

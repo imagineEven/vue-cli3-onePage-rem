@@ -8,6 +8,7 @@ import store from './store'
 import router from './router'
 import '@/filters' // filters
 import '@/permission' // permission 权限
+// import '@/'
 // 解决移动端click事件300毫秒延迟方法
 import FastClick from 'fastclick'
 if ('addEventListener' in document) {

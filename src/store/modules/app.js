@@ -9,6 +9,7 @@ const state = {
     {name: '首页', path: '/'},
     {name: '滚动', path: '/power', query:{name:'even'}},
     {name: '我的', path: '/user'},
+    {name: '循环', path: '/loop'},
   ]
 }
 

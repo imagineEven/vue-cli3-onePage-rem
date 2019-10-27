@@ -26,6 +26,14 @@ export const constantRoutes = [
       keepAlive: false,
       footer: true,
     }
+  },
+  {
+    path: '/loop',
+    component: () => import('@/views/loop/loop'),
+    meta: {
+      keepAlive: false,
+      footer: true,
+    }
   }
 ]
 

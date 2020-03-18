@@ -20,7 +20,8 @@ import {mapActions} from 'vuex'
       }
     },
     created() {
-      window.addEventListener('scroll',this.onScroll)
+      window.addEventListener('scroll',this.onScroll);
+      
     },
     components: {efooter},
     provide() {
@@ -31,7 +32,7 @@ import {mapActions} from 'vuex'
     },
     methods: {
       ...mapActions('scroll-info', ['onScroll']),
-      // 节流防抖函数
+      // 节流防抖函数d
       debounce(time, fun) {
         if (this.isScrolling) return;
         this.timeOut && clearTimeout(this.timeOut);

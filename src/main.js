@@ -36,6 +36,11 @@ window.onpopstate = function() {
   })
 }
 
+/**
+ * @decs 调试工具
+ */
+import eruda from "./utils/device/eruda.js"
+eruda.init()
 
 function output() {
   console.log('window.history',window.history);

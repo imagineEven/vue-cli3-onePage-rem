@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "axios": "0.18.0",
+    "eruda": "^2.3.3",
     "fastclick": "^1.0.6",
     "lib-flexible": "^0.3.2",
     "moment": "^2.26.0",

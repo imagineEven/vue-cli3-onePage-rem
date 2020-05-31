@@ -14,6 +14,7 @@
 
 <script>
 // import { api } from '@/config'
+import {isAllType} from '@/utils/isAllType'
 import efooter from '@/components/footer/footer'
 import {
   Button
@@ -47,6 +48,7 @@ export default {
       // window.location.href = 'http://localhost:9018/app/user'
       // 这种也刷新支持回退，
       // window.location.reload();
+      console.log(isAllType('isNumber', 111))
     },
     gogo() {
       window.history.go(-1);

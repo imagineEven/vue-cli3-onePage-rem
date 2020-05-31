@@ -5,7 +5,7 @@
 [关于项目介绍](https://segmentfault.com/a/1190000019275330)
 
 
-## 将进入浦发（用作资料的查询）
+## 进入浦发（用作资料的查询）
 
 加油！希望能得到大家的认可。
 
@@ -15,12 +15,9 @@
  2. [阮一峰flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
  3. [字符串的方法](https://www.cnblogs.com/zhangxin2540/p/7054835.html)     
  4. []()
- 5. [正则表达式菜鸟文档] (https://www.runoob.com/regexp/regexp-syntax.html)
+ 5. [正则表达式菜鸟文档](https://www.runoob.com/regexp/regexp-syntax.html)
  6. [eruda.js调试博客1](https://www.jianshu.com/p/b95227a22745)
  7. [eruda.js调试博客2](https://www.cnblogs.com/aisiqi-love/p/11764627.html)
-
-
-#### 代码工具
 
 
 #### 文档
@@ -29,7 +26,7 @@
 3. [vuex文档](https://vuex.vuejs.org/zh/)
 4. [axios文档](http://www.axios-js.com/zh-cn/docs/)
 5. [postcss文档](https://postcss.org/)
-6. [npm文档] (https://docs.npmjs.com/)
+6. [npm文档](https://docs.npmjs.com/)
 7. [正则表达式图解工具](https://regexper.com/)
 8. [vue-cli配置文档](https://cli.vuejs.org/zh/config/) 
 9. [moment时间文档](http://momentjs.cn/docs/#/manipulating/)
@@ -51,6 +48,24 @@
 3. [vorlonjs混合开发调试工具](http://www.vorlonjs.com/)
 4. [eruda.js]()
 5. []()
+
+
+#### 代码工具
+ /src
+
+  assets/css
+  > animation.scss\自定义动画
+  > animationsOther.scss\第三方动画
+  > common.scss\常用css变量
+  > mixin.scss\混入变量
+  > variables.scss\统一主题色变量
+  >
+  filter/ 
+  > 过滤文件，将时间进行过滤；
+
+  utils/
+  > 
+
 
 #### 多环境
 

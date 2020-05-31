@@ -20,7 +20,6 @@ if ('addEventListener' in document) {
     false
   )
 }
-// console.log('window.history', window.history)
 Vue.config.productionTip = false
 let game = new Vue({
   el: '#app',
@@ -32,21 +31,13 @@ let game = new Vue({
 // 测试什么时候出发这个方法，
 window.onpopstate = function() {
   output();
-  // window.history.go(-1);
-  // alert('我被出发了');
   game.$router.push({
     path: '/loop'
   })
-  // window.history.go(-2);
 }
 
 
 function output() {
   console.log('window.history',window.history);
   console.log('location.href',location.href);
-  // console.log('location.href',location.href);
 }
-// console.log('-------------home.vue-------------')
-// console.log('window.history',window.history)
-// console.log('document.referrer',document.referrer)
-// console.log('-------------home.vue-------------')

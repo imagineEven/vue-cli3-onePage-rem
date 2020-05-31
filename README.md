@@ -1,17 +1,56 @@
 # vue-h5-template
-难道是你说的算吗？  even的帮助文档
 基于vue-cli3.0+webpack 4+vant ui + sass+ rem适配方案+axios封装，构建手机端模板脚手架
 
 #### 介绍
 [关于项目介绍](https://segmentfault.com/a/1190000019275330)
 
- 1. vuecli3.0      
- 2. 多环境开发       
- 3. axios封装         
- 4. rem适配方案        
- 5. 生产环境cdn优化首屏加速
- 6. babel低版本浏览器兼容
- 7. 环境发布脚本
+
+## 将进入浦发（用作资料的查询）
+
+加油！希望能得到大家的认可。
+
+#### 外联博库
+
+ 1. [SVN使用手册](https://blog.csdn.net/sinat_37812785/article/details/80243207)
+ 2. [阮一峰flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+ 3. [字符串的方法](https://www.cnblogs.com/zhangxin2540/p/7054835.html)     
+ 4. []()
+ 5. [正则表达式菜鸟文档] (https://www.runoob.com/regexp/regexp-syntax.html)
+ 6. [eruda.js调试博客1](https://www.jianshu.com/p/b95227a22745)
+ 7. [eruda.js调试博客2](https://www.cnblogs.com/aisiqi-love/p/11764627.html)
+
+
+#### 代码工具
+
+
+#### 文档
+1. [vant-ui文档](https://youzan.github.io/vant/#/zh-CN/quickstart)   
+2. [vue文档](https://cn.vuejs.org/)
+3. [vuex文档](https://vuex.vuejs.org/zh/)
+4. [axios文档](http://www.axios-js.com/zh-cn/docs/)
+5. [postcss文档](https://postcss.org/)
+6. [npm文档] (https://docs.npmjs.com/)
+7. [正则表达式图解工具](https://regexper.com/)
+8. [vue-cli配置文档](https://cli.vuejs.org/zh/config/) 
+9. [moment时间文档](http://momentjs.cn/docs/#/manipulating/)
+10. [MDN手册](https://developer.mozilla.org/zh-CN/)
+11. [gitHub](https://github.com/imagineEven)
+12. []()
+13. []()
+14. []()
+15. []()
+16. []()
+17. []()
+18. []()
+19. []()
+20. []()
+
+#### 其他工具
+1. [PDF转word](https://app.xunjiepdf.com/)
+2. [easy-mock模拟数据工具](https://easy-mock.com/login)
+3. [vorlonjs混合开发调试工具](http://www.vorlonjs.com/)
+4. [eruda.js]()
+5. []()
 
 #### 多环境
 
@@ -31,15 +70,4 @@
 
 [vant](https://youzan.github.io/vant/#/zh-CN/quickstart)  
  
- #### 总结
 
-因为项目刚刚构建起来，后面还会持续更新，实际使用过程中一定还有很多问题，如果文章中有错误希望能够被指正，一起成长
-
-# 关于我
-
-您可以扫描添加下方的微信并备注 Sol 加交流群，给我提意见，交流学习。
-<p>
-  <img src="https://tweapp.top1buyer.com/mine.jpg" width="256" style="display:inline;">
-</p>
- 
-如果对你有帮助送我一颗小星星（づ￣3￣）づ╭❤～

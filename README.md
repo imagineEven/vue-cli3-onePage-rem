@@ -16,6 +16,7 @@
  3. [字符串的方法](https://www.cnblogs.com/zhangxin2540/p/7054835.html)     
  4. []()
  5. [正则表达式菜鸟文档](https://www.runoob.com/regexp/regexp-syntax.html)
+    [正则表达测试工具网址](https://c.runoob.com/front-end/854)
  6. [eruda.js调试博客1](https://www.jianshu.com/p/b95227a22745)
  7. [eruda.js调试博客2](https://www.cnblogs.com/aisiqi-love/p/11764627.html)
 

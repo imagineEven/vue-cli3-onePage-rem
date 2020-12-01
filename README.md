@@ -33,7 +33,7 @@
 9. [moment时间文档](http://momentjs.cn/docs/#/manipulating/)
 10. [MDN手册](https://developer.mozilla.org/zh-CN/)
 11. [gitHub](https://github.com/imagineEven)
-12. []()
+12. [微信jssdk开发文档](http://caibaojian.com/wxwiki/0030551f015f01ecaa56d20b88ee3c6cb32503bf.html)
 13. []()
 14. []()
 15. []()

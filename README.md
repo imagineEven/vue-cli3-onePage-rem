@@ -48,7 +48,7 @@
 18. [高德地图文档](https://lbs.amap.com/api/javascript-api/reference/map/)
 19. [postcss文档](https://postcss.org/)
 21. [mongodb文档](https://www.mongodb.org.cn/)
-20. []()
+20. [Ts](tslang.cn/docs/handbook/typescript-in-5-minutes.html)
 20. []()
 20. []()
 20. []()
@@ -63,9 +63,11 @@
 2. [easy-mock模拟数据工具](https://easy-mock.com/login)
 3. [vorlonjs混合开发调试工具](http://www.vorlonjs.com/)
 4. [eruda.js]()
-5. []()
-
-
+5. [修改host网址](https://zhuanlan.zhihu.com/p/107334179)
+6. [npm环境变量配置](https://www.cnblogs.com/coder-lzh/p/9232192.html)
+7. [bootcdn网址](https://www.bootcdn.cn/)
+#### 学习
+1. [单元测试](https://segmentfault.com/a/1190000013470485)
 #### 代码工具
  /src
 
